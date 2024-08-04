@@ -5,7 +5,6 @@ import { Box, Stack, Typography, Modal, TextField, Button } from '@mui/material'
 import { firestore } from '@/firebase';
 import { useState, useEffect } from 'react';
 import { doc, collection, deleteDoc, getDocs, query, getDoc, setDoc } from 'firebase/firestore';
-import { white } from 'colors';
 
 const list = ['apple sauce', 'tomatoes', 'potatoes', 'apples', 'pears', 'grapes', 'pasta', 'apple juice']
 
